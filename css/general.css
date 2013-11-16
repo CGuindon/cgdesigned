@@ -8,6 +8,47 @@ body {
 	margin-top: 6em;
 }
 
+.skiplinks{
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	z-index:3000;
+	width:100%;
+	font-size: 1.25rem;
+	font-weight:bold;
+	list-style-type: none;
+}
+
+.skiplinks a,
+.skiplinks a:link,
+.skiplinks a:visited{
+	padding:0.75em 1em;
+	position: absolute;
+	top: -10em;
+	font-family: 'Helvetica', sans-serif;
+	background-color: #000;
+	color: #fff;
+	text-decoration: none;
+}
+
+.skiplinks a:focus{
+top: 0;
+}
+
+a:hover,
+a:active{
+/* its ok to remove outline here because its only for the mouse users. */
+	outline:none;
+}
+
+a:focus{
+/*YOU MUST ALWAYS HAVE AN OUTLINE HERE*/
+outline: 2px solid #000;
+}
+
+
+
+
 .flex-img {
 	display: block;
 	width:  100%;
@@ -280,7 +321,7 @@ header li {
 .contact {
 	font-size: .8em;
 	padding: 4em 0;
-	color: #5e5e5e;
+	color: #2e2e2e;
 	margin-top: 2em;
 
 	border-top: 1px solid #e2e2e2;
@@ -295,6 +336,10 @@ header li {
 	text-transform: uppercase;
 	color: #2e2e2e;
 	padding: 0 0 2em;
+}
+
+.contact a:hover {
+	color: #00a78a;
 }
 
 #footer-container {
@@ -425,6 +470,10 @@ header li {
 
 	.contact {
 	padding: 4em 0;
+}
+
+.padding-top {
+	padding-top: 6em;
 }
 
 }
