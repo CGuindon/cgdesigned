@@ -1,3 +1,9 @@
+* {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
 html {
 	font: normal 100%/1.4 'Questrial',sans-serif;
 }
@@ -156,20 +162,42 @@ header li {
 	font-weight: thin;
 }
 
+.intro {
+	margin: 0;
+	font-family: 'Open Sans Condensed', serif;
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+	line-height: 1;
+}
+
 .intro p {
 	margin: 0;
 }
 
-.font-large {
+.font-graphic {
 	text-align: center;
-	font: normal 2em/1em 'Bree Serif', serif;
-	text-transform: uppercase;
+	font-size: 3.6em;
+	line-height: 0.9;
+
+}
+
+.font-designer {
+	text-align: center;
+	font-size: 3.1em;
+	font-weight: normal;
+}
+
+.font-handstand {
+	text-align: center;
+	font-size: 2em;
+	font-weight: normal;
+	font-weight: bold;
+	letter-spacing: 0.05em;
 }
 
 .font-medium {
 	text-align: center;
-	font: normal 1.2em/1 'Questrial', serif;
-	letter-spacing: 0.03em;
+	font-size: 2em;
 }
 
 
@@ -177,43 +205,44 @@ header li {
 
 .about-bg {
 	padding: 2em 1em;
-	background-color: #e9e9e9;
+	background-color: #fff;
 	margin-bottom: 2em;
 	border-bottom: 1px solid #e2e2e2;
 }
 
-.about {
+.process {
 	font-size: 1.2em;
 	color: #2e2e2e;
 	text-align: left;
-	padding: 1em 1em 2em;
+	padding: 1em 0 3em;
+	font-family: 'Open Sans', sans-serif;
 }
 
-.about h1 {
-	font-size: 3em;
+.process h1 {
+	font-size: 2.5em;
+	font-family: 'Open Sans Condensed', sans-serif;
 	text-transform: uppercase;
+	line-height: 1;
 	margin: 0;
 }
 
-.about h2 {
+.process p {
+	font-size: 0.8em;
+	margin: 0;
+}
+
+.process h2 {
 	font-size: 1.5em;
 	text-transform: uppercase;
+	font-family: 'Open Sans Condensed', sans-serif;
 	margin: 0;
-}
-
-.about p {
-	font-size: 1em;
-	margin: 0;
-}
-
-.process {
-	padding: 2em 0;
-	margin: auto 0.5em;
-}
+	}
 
 .img-process {
 	display: block;
 	width: 100%;
+	margin-top: 2.5em;
+	max-width: 20em;
 }
 
 
@@ -384,20 +413,33 @@ header li {
 		color: #00a78a;
 	}
 
-@media only screen and (min-width: 27em) and (max-width: 50em) {
+@media only screen and (min-width: 23em) {
 
-.font-large {
-	font-size: 3em;
+	.pro-img {
+		padding-left: 3em;
+		padding-right: 3em;
+	}
+
+	.font-graphic {
+	font-size: 5.1em;
 }
 
-.font-medium {
-	font-size: 1.5em;
-}
+	.font-designer {
+		font-size: 4.5em;
+	}
+
+	.font-handstand {
+		font-size: 2.9em;
+	}
+
+	.font-medium {
+		font-size: 3em;
+	}
 
 }
 
 
-@media only screen and (max-width : 35em) {
+@media only screen and (max-width : 33em) {
 
 	header {
 		position: fixed;
@@ -442,23 +484,31 @@ header li {
 
 }
 
+@media only screen and (min-width: 33em){
+
+	.process {
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+
+}
+
 @media only screen and (min-width: 50em){
 
-.process {
-	padding: 2em 1em;
-	margin: auto -2em;
+	.font-graphic {
+	font-size: 6.8em;
 }
 
-.font-large {
-	font-size: 5em;
-}
+	.font-designer {
+		font-size: 6em;
+	}
 
-.font-medium {
-	font-size: 2em;
-}
+	.font-handstand {
+		font-size: 3.8em;
+	}
 
-.about-bg {
-	padding: 2em 2em;
+	.font-medium {
+		font-size: 4em;
 	}
 
 }
@@ -473,9 +523,11 @@ header li {
 	padding: 4em 0;
 }
 
-.padding-top {
-	padding-top: 6em;
+.my-process {
+	padding-left: 15em;
+	padding-right: 15em;
 }
+
 
 }
 

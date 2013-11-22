@@ -20,14 +20,13 @@
 .unit-spacer {
   padding: 8px;
 }
-@media only screen and (max-width: 33em) {
 
   .unit-xs-hidden {
     display: none;
     visibility: hidden;
   }
   .unit-xs-1 {
-    display: block;
+    width: 100%;
   }
   .unit-xs-1-2 {
     width: 50%;
@@ -80,16 +79,16 @@
   .unit-xs-8-9 {
     width: 88.88888%;
   }
-}
 
-@media only screen and (min-width: 33em) and (max-width: 50em) {
+
+@media only screen and (min-width: 33em) {
 
   .unit-s-hidden {
     display: none;
     visibility: hidden;
   }
   .unit-s-1 {
-    display: block;
+    width: 100%;
   }
   .unit-s-1-2 {
     width: 50%;
@@ -144,14 +143,15 @@
   }
 }
 
-@media only screen and (min-width: 50em) and (max-width: 64em) {
+@media only screen and (min-width: 50em) {
+
 
   .unit-m-hidden {
     display: none;
     visibility: hidden;
   }
   .unit-m-1 {
-    display: block;
+    width: 100%;
   }
   .unit-m-1-2 {
     width: 50%;
