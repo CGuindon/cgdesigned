@@ -316,13 +316,13 @@ header li {
 }
 
 .piece4 {
-	background-position: 20% 30%;
+	background-position: 70% 20%;
     background-size: 300%;
-    background-image: url(../img/musicfest-app.jpg);
+    background-image: url(../img/app-musicfest-1.jpg);
 }
 
 .piece5 {
-	background-position: 50% 65%;
+	background-position: 50% 56%;
     background-size: 250%;
     background-image: url(../img/poster-hitchcock.jpg);
 }
@@ -347,8 +347,8 @@ header li {
 
 .piece9 {
 	background-position: 50% 50%;
-    background-size: 50%;
-    background-image: url(../img/logo-pf.jpg);
+    background-size: 150%;
+    background-image: url(../img/stationnery-pf.jpg);
 }
 
 
