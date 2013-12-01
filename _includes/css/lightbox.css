@@ -123,7 +123,8 @@ body:after {
 }
 /* line 87, ../sass/lightbox.sass */
 .lb-prev:hover {
-  background: url(../img/prev.png) left 48% no-repeat;
+  background: url(../img/prev.png) 0% 48% no-repeat;
+  opacity: .25;
 }
 
 /* line 90, ../sass/lightbox.sass */
@@ -133,7 +134,8 @@ body:after {
 }
 /* line 93, ../sass/lightbox.sass */
 .lb-next:hover {
-  background: url(../img/next.png) right 48% no-repeat;
+  background: url(../img/next.png) 100% 48% no-repeat;
+  opacity: .25;
 }
 
 /* line 96, ../sass/lightbox.sass */
@@ -199,4 +201,22 @@ body:after {
   cursor: pointer;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
+}
+
+
+  @media only screen and (max-width: 33em) {
+
+  .lb-prev {
+  left: 0;
+  float: left;
+  background: url(../img/prev.png) -9% 48% no-repeat;
+  opacity: .25;
+}
+.lb-next {
+  right: 0;
+  float: right;
+  background: url(../img/next.png) 109% 48% no-repeat;
+  opacity: .25;
+}
+
 }
