@@ -204,18 +204,29 @@ body:after {
 }
 
 
-  @media only screen and (max-width: 33em) {
+  @media only screen and (max-width: 44em) {
 
   .lb-prev {
   left: 0;
   float: left;
-  background: url(../img/prev.png) -9% 48% no-repeat;
+  background: url(../img/prev.png) -7% 48% no-repeat;
   opacity: .25;
 }
+
+.lb-prev:hover {
+  background: url(../img/prev.png) -7% 48% no-repeat;
+  opacity: .25;
+}
+
 .lb-next {
   right: 0;
   float: right;
-  background: url(../img/next.png) 109% 48% no-repeat;
+  background: url(../img/next.png) 107% 48% no-repeat;
+  opacity: .25;
+}
+
+.lb-next:hover {
+  background: url(../img/next.png) 107% 48% no-repeat;
   opacity: .25;
 }
 
