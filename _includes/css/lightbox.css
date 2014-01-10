@@ -204,7 +204,7 @@ body:after {
 }
 
 
-  @media only screen and (max-width: 44em) {
+  @media only screen and (max-width: 60em) {
 
   .lb-prev {
   left: 0;
@@ -230,4 +230,4 @@ body:after {
   opacity: .25;
 }
 
-}
+
