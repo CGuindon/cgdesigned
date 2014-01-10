@@ -120,6 +120,8 @@ body:after {
 .lb-prev {
   left: 0;
   float: left;
+  background: url(../img/prev.png) 0% 48% no-repeat;
+  opacity: .25;
 }
 /* line 87, ../sass/lightbox.sass */
 .lb-prev:hover {
@@ -131,6 +133,8 @@ body:after {
 .lb-next {
   right: 0;
   float: right;
+  background: url(../img/next.png) 100% 48% no-repeat;
+  opacity: .25;
 }
 /* line 93, ../sass/lightbox.sass */
 .lb-next:hover {
@@ -209,24 +213,24 @@ body:after {
   .lb-prev {
   left: 0;
   float: left;
-  background: url(../img/prev.png) -7% 48% no-repeat;
+  background: url(../img/prev.png) -3% 48% no-repeat;
   opacity: .25;
 }
 
 .lb-prev:hover {
-  background: url(../img/prev.png) -7% 48% no-repeat;
+  background: url(../img/prev.png) -3% 48% no-repeat;
   opacity: .25;
 }
 
 .lb-next {
   right: 0;
   float: right;
-  background: url(../img/next.png) 107% 48% no-repeat;
+  background: url(../img/next.png) 103% 48% no-repeat;
   opacity: .25;
 }
 
 .lb-next:hover {
-  background: url(../img/next.png) 107% 48% no-repeat;
+  background: url(../img/next.png) 103% 48% no-repeat;
   opacity: .25;
 }
 
