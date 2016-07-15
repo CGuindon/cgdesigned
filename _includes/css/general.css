@@ -255,6 +255,7 @@ header li {
 
 .hexagon {
     cursor: pointer;
+    margin-bottom: 1em;
     }
 .hexagon-in1 {
     overflow: hidden;
@@ -288,7 +289,7 @@ header li {
 }
 
 .piece2 {
-	background-position: 30% 115%;
+	background-position: 30% 96%;
     background-size: 400%;
     background-image: url(../img/website-lookup.jpg);
 }
