@@ -149,6 +149,7 @@ header li {
 
 
 .h1-bg {
+	background-size: 100%;
 	background-image: url(../img/bg-intro.jpg) center;
 	padding: 2em 0;
 }
