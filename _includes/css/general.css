@@ -180,14 +180,16 @@ header li {
 
 .font-graphic {
 	text-align: center;
-	font-size: 1rem;
+	font-size: 1.5rem;
 	line-height: 0.9;
+	padding: 13em 0;
 }
 
 .font-medium {
 	text-align: center;
-	font-size: .75rem;
+	font-size: 1rem;
 	color: #fefefe;
+	padding: 13em 0 2em;
 }
 
 
