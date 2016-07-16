@@ -187,7 +187,7 @@ header li {
 .font-medium {
 	text-align: center;
 	font-size: .75rem;
-	color: #00A88A;
+	color: #fefefe;
 }
 
 
@@ -397,22 +397,6 @@ header li {
 
 @media only screen and (min-width: 23em) {
 
-
-	.font-graphic {
-	font-size: 5.1em;
-}
-
-	.font-designer {
-		font-size: 4.5em;
-	}
-
-	.font-handstand {
-		font-size: 2.9em;
-	}
-
-	.font-medium {
-		font-size: 3em;
-	}
 
 }
 
