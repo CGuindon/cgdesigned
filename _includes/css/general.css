@@ -145,15 +145,30 @@ header li {
 	max-width: 10em;
 }
 
+
+.bg-box {
+	position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+}
+
 .bg-home {
 	background: url(../img/bg-intro.jpg) center no-repeat;
-	position: fixed;
 	z-index: -1;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	min-width: 50%;
+	min-height: 50%;
 }
 
 
 .h1-bg {
-	padding: 2em 0;
 }
 
 .intro {
@@ -342,6 +357,7 @@ header li {
 	font-size: .8em;
 	padding: 4em 0;
 	color: #2e2e2e;
+	background-color: #ffffff;
 }
 
 .contact-info {
@@ -355,8 +371,12 @@ header li {
 	padding: 0 0 2em;
 }
 
-.contact a:hover {
+.contact a {
 	color: #00a78a;
+}
+
+.contact a:hover {
+	text-decoration: underline;
 }
 
 #footer-container {
