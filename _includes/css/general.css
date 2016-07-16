@@ -70,7 +70,7 @@ section {
 }
 
 a {
-	color: #2e2e2e;
+	color: #fefefe;
 	text-decoration: none;
 }
 
@@ -106,7 +106,7 @@ header {
 header nav {
 
 	float: right;
-	padding: 2em;
+	padding: 0.5em 2em;
 
 }
 
@@ -417,7 +417,7 @@ header li {
 
 		display: none;
 		position: fixed;
-
+		padding: 1em;
 		right: 3em;
 		top: 3em;
 		width: 30%;
