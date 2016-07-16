@@ -150,6 +150,8 @@ header li {
 
 .h1-bg {
 	padding: 2em 0;
+	background: url(../img/bg-intro.jpg) center;
+
 }
 
 .intro {
@@ -178,13 +180,13 @@ header li {
 
 .font-graphic {
 	text-align: center;
-	font-size: 1em;
+	font-size: 1rem;
 	line-height: 0.9;
 }
 
 .font-medium {
 	text-align: center;
-	font-size: .75em;
+	font-size: .75rem;
 	color: #00A88A;
 }
 
