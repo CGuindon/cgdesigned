@@ -5,7 +5,7 @@ box-sizing: border-box;
 }
 
 html {
-	font: normal 100%/1.4 'Questrial',sans-serif;
+	font: normal 100%/1.4 'Open Sans',sans-serif;
 }
 
 body {
@@ -31,7 +31,7 @@ body {
 	padding:0.75em 1em;
 	position: absolute;
 	top: -10em;
-	font-family: 'Helvetica', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	background-color: #000;
 	color: #fff;
 	text-decoration: none;
@@ -149,6 +149,7 @@ header li {
 
 
 .h1-bg {
+	background-image: url(../img/i-menu.svg) center;
 	background-color: #2e2e2e;
 	padding: 2em 0;
 }
@@ -163,7 +164,7 @@ header li {
 
 .intro {
 	margin: 0;
-	font-family: 'Open Sans Condensed', serif;
+	font-family: 'Open Sans', serif;
 	text-transform: uppercase;
 	letter-spacing: 0.04em;
 	line-height: 1;
