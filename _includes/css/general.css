@@ -239,7 +239,10 @@ header li {
 	max-width: 10em;
 }
 
-
+.work-single {
+	padding-bottom: 2em;
+	border-bottom: 1px solid #e2e2e2;
+}
 
 #work {
 	padding-bottom: 2em;
