@@ -148,9 +148,9 @@ header li {
 
 .h1-bg {
 	padding: 2em 0;
-	background: url(../img/bg-intro.jpg) center;
-	margin-top: -12em;
-
+	background: url(../img/bg-intro.jpg) center no-repeat;
+	position: absolute;
+	top: 0;
 }
 
 .intro {
@@ -181,14 +181,16 @@ header li {
 	text-align: center;
 	font-size: 1.5rem;
 	line-height: 0.9;
-	padding: 2em 0 13em;
+	padding: 1em 0 4em;
+	font-weight: lighter;
 }
 
 .font-medium {
 	text-align: center;
 	font-size: 1rem;
 	color: #fefefe;
-	padding-top: 13em;
+	padding-top: 4em;
+	font-weight: bold;
 }
 
 
