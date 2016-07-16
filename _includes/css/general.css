@@ -12,9 +12,6 @@ body {
 	padding: 0;
 	margin: 0;
 	margin-top: 6em;
-	background: url(../img/bg-intro.jpg) center no-repeat;
-	position: fixed;
-	z-index: -1;
 }
 
 .skiplinks{
@@ -146,6 +143,12 @@ header li {
 
 .logo {
 	max-width: 10em;
+}
+
+.bg-home {
+	background: url(../img/bg-intro.jpg) center no-repeat;
+	position: fixed;
+	z-index: -1;
 }
 
 
