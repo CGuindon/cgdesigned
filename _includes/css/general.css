@@ -149,8 +149,7 @@ header li {
 
 
 .h1-bg {
-	background-image: url(../img/i-menu.svg) center;
-	background-color: #2e2e2e;
+	background-image: url(../img/bg-intro.jpg) center;
 	padding: 2em 0;
 }
 
@@ -176,28 +175,14 @@ header li {
 
 .font-graphic {
 	text-align: center;
-	font-size: 3.6em;
+	font-size: 1em;
 	line-height: 0.9;
-
-}
-
-.font-designer {
-	text-align: center;
-	font-size: 3.1em;
-	font-weight: normal;
-}
-
-.font-handstand {
-	text-align: center;
-	font-size: 2em;
-	font-weight: normal;
-	font-weight: bold;
-	letter-spacing: 0.05em;
 }
 
 .font-medium {
 	text-align: center;
-	font-size: 2em;
+	font-size: .75em;
+	color: #00A88A;
 }
 
 
