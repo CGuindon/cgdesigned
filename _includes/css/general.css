@@ -113,8 +113,8 @@ header nav {
 #menu-icon {
 
 	display: hidden;
-	width: 3em;
-	height: 3em;
+	width: 1.75em;
+	height: 1.75em;
 	background: url(../img/i-menu.svg) center;
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -192,7 +192,7 @@ header li {
 	text-align: center;
 	font-size: 1.5rem;
 	line-height: 0.9;
-	padding: 1em 0 4em;
+	padding: 1em 0 8em;
 	font-weight: bold;
 }
 
@@ -200,13 +200,18 @@ header li {
 	text-align: center;
 	font-size: 1rem;
 	color: #fefefe;
-	padding-top: 4em;
+	padding-top: 5em;
 	font-weight: lighter;
 }
 
 .about-bg {
 	background-color: #fff;
 	border-bottom: 1px solid #e2e2e2;
+}
+
+.about-block {
+	padding: 4em 2em;
+	background-color: #fff
 }
 
 .process {
@@ -492,7 +497,7 @@ header li {
 }
 
 .font-graphic {
-	padding-bottom: 20em;
+	padding-bottom: 15em;
 }
 
 }
