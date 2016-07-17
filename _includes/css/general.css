@@ -167,18 +167,16 @@ header li {
 
 .intro {
 	text-align: center;
-	padding: 4em 2em;
+	padding: 4em 2em 8em;
 	margin: 0;
 	color: #fff;
 	font-weight: thin;
-}
-
-.intro {
 	margin: 0;
 	font-family: 'Open Sans', serif;
 	text-transform: uppercase;
 	letter-spacing: 0.04em;
 	line-height: 1;
+	height: 10em;
 }
 
 .intro p {
@@ -204,9 +202,6 @@ header li {
 	padding-top: 4em;
 	font-weight: lighter;
 }
-
-
-
 
 .about-bg {
 	background-color: #fff;
