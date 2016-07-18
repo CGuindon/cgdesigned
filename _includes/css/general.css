@@ -197,7 +197,7 @@ header li {
 
 .font-medium {
 	text-align: center;
-	font-size: 1rem;
+	font-size: 2rem;
 	color: #fefefe;
 	padding-top: 5em;
 	font-weight: lighter;
@@ -497,6 +497,10 @@ header li {
 
 .font-graphic {
 	padding-bottom: 15em;
+}
+
+.font-medium {
+	padding-top: 10em;
 }
 
 }
