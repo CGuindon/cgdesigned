@@ -187,19 +187,27 @@ header li {
 	background-size: 100%;
 }
 
+.font-name {
+	text-align: center;
+	font-size: 0.85rem;
+	color: #fefefe;
+	padding-top: 5em;
+	font-weight: lighter;
+}
+
 .font-graphic {
 	text-align: center;
-	font-size: 1.5rem;
+	font-size: 2.5rem;
 	line-height: 0.9;
 	padding: 1em 0 8em;
 	font-weight: bold;
 }
 
-.font-medium {
+.font-handstand {
 	text-align: center;
-	font-size: 2rem;
+	font-size: 0.85rem;
 	color: #fefefe;
-	padding-top: 5em;
+	padding-top: 1rem;
 	font-weight: lighter;
 }
 
