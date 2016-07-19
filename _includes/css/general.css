@@ -259,7 +259,8 @@ header li {
 }
 
 .work-single {
-	padding-bottom: 2em;
+	padding-bottom: 0em;
+	padding-top: 0em;
 	border-bottom: 1px solid #e2e2e2;
 }
 
