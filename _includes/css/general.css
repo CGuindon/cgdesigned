@@ -161,6 +161,7 @@ header li {
 
 
 .h1-bg {
+	padding-top: 6em;
 }
 
 .intro {
@@ -425,6 +426,10 @@ header li {
 
 	/* LOGO SECTION */
 
+	a:focus {
+		outline: none;
+	}
+
 .header-a {
 	background: #2e2e2e;
 	background: url('../img/crowd.jpg') no-repeat center center fixed;
@@ -432,7 +437,7 @@ header li {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-	padding: 5em 0;
+	padding: 12em 0 5em;
 	color: #fff;
 	width: 100%;
 	font-weight: 200;
@@ -537,7 +542,7 @@ dialog + .backdrop {
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-    background: #ec5d37;
+    background: #b8e0d6;
 }
 
 .tab[data-state="current"] .circle {
@@ -546,7 +551,7 @@ dialog + .backdrop {
 
 .tab-img {
 	width: 100%;
-
+-border: none;
 }
 
 .tabs {
