@@ -269,91 +269,33 @@ header li {
 	border-bottom: 1px solid #e2e2e2;
 }
 
-.hexagon {
-    cursor: pointer;
-    }
-
-.hexagon-in1 {
-    overflow: hidden;
+.image:after, .image:before {
+    position: absolute;
+    opacity: 0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+.image:after {
+    content: '\A';
+    width: 100%; height:100%;
+    top: 0; left:0;
+    background:rgba(0,0,0,0.6);
+}
+.image:before {
+    content: attr(data-content);
     width: 100%;
-    height: 100%;
-    }
-
-.hexagon-in2 {
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    }
-
-.hexagon-in2:hover {
-    opacity: 0.4;
-
-    }
-
-
-.hexagon2 {
-    width: 15em;
-    height: 15em;
-    margin: auto;
-    margin-bottom: 2em;
-
-    }
-
-
-.piece1 {
-	background-position: 80%;
-    background-size: 400%;
-    background-image: url(../img/poster-extinction.jpg);
+    color: #fff;
+    z-index: 1;
+    bottom: 0;
+    padding: 4px 10px;
+    text-align: center;
+    background: #f00;
+    box-sizing: border-box;
+    -moz-box-sizing:border-box;
 }
-
-.piece2 {
-	background-position: 30% 96%;
-    background-size: 400%;
-    background-image: url(../img/website-lookup.jpg);
+.image:hover:after, .image:hover:before {
+    opacity: 1;
 }
-
-.piece3 {
-	background-position: 30% 20%;
-    background-size: 250%;
-    background-image: url(../img/poster-filmnoir.jpg);
-}
-
-.piece4 {
-	background-position: 70% 20%;
-    background-size: 300%;
-    background-image: url(../img/app-musicfest-1.jpg);
-}
-
-.piece5 {
-	background-position: 55% 56%;
-    background-size: 250%;
-    background-image: url(../img/poster-tweed2.jpg);
-}
-
-.piece6 {
-	background-position: 10% 40%;
-    background-size: 300%;
-    background-image: url(../img/spread-florence.jpg);
-}
-
-.piece7 {
-	background-position: 80% 50%;
-    background-size: 300%;
-    background-image: url(../img/app-boulder1.jpg);
-}
-
-.piece8 {
-	background-position: 50% 30%;
-    background-size: 500%;
-    background-image: url(../img/package-vino.jpg);
-}
-
-.piece9 {
-	background-position: 50% 50%;
-    background-size: 150%;
-    background-image: url(../img/stationnery-pf.jpg);
-}
-
 
 
 .contact {
