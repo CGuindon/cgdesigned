@@ -1,0 +1,375 @@
+body {
+	background-color: #ece8e5;
+	font-family: 'Helvetica', sans-serif;
+	line-height: 1.4;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.flex-img {
+	display: block;
+	width: 100%;
+}
+
+/* LOGO SECTION */
+
+header {
+	background: #2e2e2e;
+	background: url('../img/crowd.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	padding: 5em 0;
+	color: #fff;
+	width: 100%;
+	font-weight: 200;
+	font-size: 0.85em;
+}
+
+.logo {
+	max-width: 16em;
+	margin: 0 auto;
+}
+
+h1 {
+	text-align: center;
+	font-weight: lighter;
+	font-size: 3em;
+	margin: 1em 0 0;
+	padding: 0;
+}
+
+h2 {
+	text-align: center;
+	font-weight: lighter;
+	font-size: 1em;
+	margin: 0 0 2em;
+	padding: 0;
+}
+
+.buy-btn {
+	margin: 0 auto;
+	max-width: 15em;
+}
+
+
+/* make keyframes that tell the start state and the end state of our object */
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fade-in {
+	opacity:0;  /* make things invisible upon start */
+	-webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+	-moz-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+
+	-webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+	-moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+
+	-webkit-animation-duration:1s;
+	-moz-animation-duration:1s;
+	animation-duration:1s;
+}
+
+.fade-in.one {
+	-webkit-animation-delay: 0.7s;
+	-moz-animation-delay: 0.7s;
+	animation-delay: 0.7s;
+}
+
+
+/* VIDEO SECTION */
+
+dialog {
+	border: 2px solid #000;
+	border-radius: 8px;
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+}
+
+/* This is the background after clicking the button */
+dialog::backdrop {
+	background-color: rgba(0,255,0,0.5);
+}
+
+/* Need this for other browsers */
+dialog + .backdrop {
+	background-color: rgba(255,255,255,0.5);
+}
+
+#btn-close {
+	width: 32px;
+	height: 32px;
+	border-radius: 16px;
+	text-align: center;
+	line-height: 24px;
+	color: #99ffcc;
+	border: 2px solid #99ffcc;
+	background-color: rgba(0,0,0,0.5);
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+	font-weight: lighter;
+	cursor: pointer;
+	position: absolute;
+	top: -16px;
+	right: -16px;
+}
+
+
+/* TABS SECTION */
+
+.circle {
+    width: 0.4em;
+    height: 0.4em;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #ec5d37;
+}
+
+.tab[data-state="current"] .circle {
+	background: #2e2e2e;
+}
+
+.tab-img {
+	width: 100%;
+
+}
+
+.tabs {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+
+.tabs li {
+	display: inline-block;
+}
+
+.tabs a {
+	font-size: 3em;
+	padding: 0.4em;
+}
+
+.tab {
+	display: inline-block;
+	padding: 1em;
+}
+
+
+
+/* FEATURES SECTION */
+
+.features-section {
+	background-color: #1e1e1e;
+	padding: 4em 0;
+}
+
+.features {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+
+.features li {
+	display: inline-block;
+	margin: 0 2rem;
+}
+
+.features a {
+	display: block;
+	position: relative;
+}
+
+.features a[data-state="current"]::after {
+	content: url("../img/i-down-arrow.svg");
+	position: absolute;
+	bottom: -20px;
+	left: 50%;
+	margin-left: -40px;
+	-webkit-transform: scale(0.5);
+}
+
+.features img {
+	width: 150px;
+	opacity: 0;
+	padding: 2em 0;
+	-webkit-transform: translateY(150px);
+}
+
+@-webkit-keyframes features-fly {
+
+	0% {
+		opacity: 0;
+		-webkit-transform: translateY(150px);
+	}
+
+	40% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 1;
+		-webkit-transform: translateY(0);
+	}
+}
+
+/* All ships appear at the same time, to add delay add the code below */
+
+.js-features-animate {
+	-webkit-animation: features-fly 1s ease-out 1 forwards;
+}
+
+.js-features-delay-1 {
+	-webkit-animation-delay: 100ms;
+}
+
+.js-features-delay-2 {
+	-webkit-animation-delay: 200ms;
+}
+
+.js-features-delay-3 {
+	-webkit-animation-delay: 250ms;
+}
+
+
+/* FEATURE TABS SECTION */
+
+.tabb[data-state="current"] .circle {
+	background: #2e2e2e;
+}
+
+.tabb-img {
+	width: 100%;
+
+}
+
+.app-feat-img {
+	background-color: #1e1e1e;
+	height: 25em;
+	background-position: 50% top;
+	background-size: 180%;
+	background-repeat: no-repeat;
+}
+
+.app-1 {
+	background-image: url('../img/app-musicfest-2.jpg');
+}
+
+.app-2 {
+	background-image: url('../img/app-musicfest-3.jpg');
+}
+
+.app-3 {
+	background-image: url('../img/app-musicfest-5.jpg');
+}
+
+.app-4 {
+	background-image: url('../img/app-musicfest-4.jpg');
+}
+
+
+/* TESTIMONIALS SECTION */
+
+.dino-name {
+	font-size: 1.7em;
+	color: #2e2e2e;
+	font-weight: lighter;
+	padding: 1.5em;
+}
+
+
+
+footer {
+	font-size: 0.5em;
+	margin-top: 10em;
+	padding: 2em 2em 3em;
+	background-color: #2e2e2e;
+	color: #f0eef3;
+}
+
+@media only screen and (min-width: 23em) {
+
+	.app-feat-img {
+		height: 30em;
+	}
+
+}
+
+@media only screen and (min-width: 27em) {
+
+	.app-feat-img {
+		height: 40em;
+	}
+
+}
+
+
+@media only screen and (min-width: 30em) {
+
+	.intro {
+		margin: 0 1em;
+	}
+
+	.intro-app {
+		margin: 0;
+	}
+
+}
+
+@media only screen and (min-width: 36em) {
+
+	.app-feat-img {
+		height: 50em;
+	}
+
+}
+
+@media only screen and (min-width: 41em) {
+
+		.intro {
+		margin: 0;
+	}
+
+	.app-feat-img {
+		background-size: 150%;
+	}
+
+}
+
+@media only screen and (min-width: 60em) {
+
+		.grid {
+			margin: auto;
+			max-width: 100em;
+		}
+
+		.iphone-band {
+			max-width: 18em;
+			margin: 0 auto;
+		}
+
+		body {
+			font-size: 110%;
+		}
+
+}
+
+@media only screen and (min-width: 80em) {
+
+		.logo {
+			max-width: 20em;
+		}
+
+		.iphone-band {
+			max-width: 22em;
+		}
+
+}
