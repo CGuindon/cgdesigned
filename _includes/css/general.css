@@ -356,7 +356,7 @@ header li {
    ----------------------------- */
 [class^='imghvr-fade'] figcaption,
 [class*=' imghvr-fade'] figcaption {
-  opacity: 0;
+  opacity: 0.8;
 }
 [class^='imghvr-fade']:hover > img,
 [class*=' imghvr-fade']:hover > img {
@@ -364,7 +364,7 @@ header li {
 }
 [class^='imghvr-fade']:hover figcaption,
 [class*=' imghvr-fade']:hover figcaption {
-  opacity: 0.8;
+  opacity: 1;
 }
 [class^='imghvr-fade']:hover > img,
 [class*=' imghvr-fade']:hover > img,
