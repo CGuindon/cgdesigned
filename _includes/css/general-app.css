@@ -17,7 +17,7 @@ a {
 
 /* LOGO SECTION */
 
-header {
+.header-a {
 	background: #2e2e2e;
 	background: url('../img/crowd.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -31,12 +31,12 @@ header {
 	font-size: 0.85em;
 }
 
-.logo {
+.logo-a {
 	max-width: 16em;
 	margin: 0 auto;
 }
 
-h1 {
+.h1-a {
 	text-align: center;
 	font-weight: lighter;
 	font-size: 3em;
@@ -44,7 +44,7 @@ h1 {
 	padding: 0;
 }
 
-h2 {
+.h2-a {
 	text-align: center;
 	font-weight: lighter;
 	font-size: 1em;
@@ -276,24 +276,6 @@ dialog + .backdrop {
 }
 
 
-/* TESTIMONIALS SECTION */
-
-.dino-name {
-	font-size: 1.7em;
-	color: #2e2e2e;
-	font-weight: lighter;
-	padding: 1.5em;
-}
-
-
-
-footer {
-	font-size: 0.5em;
-	margin-top: 10em;
-	padding: 2em 2em 3em;
-	background-color: #2e2e2e;
-	color: #f0eef3;
-}
 
 @media only screen and (min-width: 23em) {
 
@@ -364,7 +346,7 @@ footer {
 
 @media only screen and (min-width: 80em) {
 
-		.logo {
+		.logo-a {
 			max-width: 20em;
 		}
 
