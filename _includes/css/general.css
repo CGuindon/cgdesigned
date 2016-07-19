@@ -290,7 +290,7 @@ overflow:hidden;
 top:0;
 left:0;
 opacity:0;
-background-color:rgba(0,0,0,0.5);
+background-color:rgba(255,255,255,0.5);
 -webkit-transition:all .4s ease-in-out;
 transition:all .4s ease-in-out
 }
@@ -304,11 +304,10 @@ transition:all .4s linear;
 
 .hovereffect h2 {
 text-transform:uppercase;
-color:#fff;
+color:#2e2e2e;
 text-align:center;
 position:relative;
 font-size:17px;
-background:rgba(0,0,0,0.6);
 -webkit-transform:translatey(-100px);
 -ms-transform:translatey(-100px);
 transform:translatey(-100px);
