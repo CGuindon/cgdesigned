@@ -60,11 +60,6 @@ outline: 2px solid #000;
 	width:  100%;
 }
 
-section {
-	padding-top: 6em;
-	margin-top: -6em;
-}
-
 .bg {
 	padding: 0;
 }
@@ -89,6 +84,10 @@ header {
 	top: 0;
 	left: 0;
 	z-index: 100;
+}
+
+#top {
+	margin-top: -6em;
 }
 
 #logo{
