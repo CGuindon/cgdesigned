@@ -271,6 +271,7 @@ header li {
 
 .role-list {
 	list-style-type: none;
+	padding: 0;
 }
 
 
@@ -348,8 +349,8 @@ transform:translatey(0);
 .contact {
 	font-size: .8em;
 	padding: 4em 0;
-	color: #2e2e2e;
-	background-color: #ffffff;
+	color: #ffffff;
+	background-color: #3a3a3a;
 }
 
 .contact-info {
@@ -359,7 +360,7 @@ transform:translatey(0);
 
 .contact h3 {
 	text-transform: uppercase;
-	color: #2e2e2e;
+	color: #ffffff;
 	padding: 0 0 2em;
 }
 
