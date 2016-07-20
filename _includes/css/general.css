@@ -360,11 +360,11 @@ header li {
 }
 [class^='imghvr-fade']:hover > img,
 [class*=' imghvr-fade']:hover > img {
-  opacity: 0.8;
+  opacity: 0.2;
 }
 [class^='imghvr-fade']:hover figcaption,
 [class*=' imghvr-fade']:hover figcaption {
-  opacity: 0.8;
+  opacity: 0.2;
 }
 [class^='imghvr-fade']:hover > img,
 [class*=' imghvr-fade']:hover > img,
