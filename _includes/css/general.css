@@ -349,8 +349,9 @@ transform:translatey(0);
 .contact {
 	font-size: .8em;
 	padding: 4em 0;
-	color: #ffffff;
-	background-color: #3a3a3a;
+	color: #2e2e2e;
+	background-color: #ffffff;
+	border-top: #3fd5ae solid .3em;
 }
 
 .contact-info {
@@ -360,8 +361,8 @@ transform:translatey(0);
 
 .contact h3 {
 	text-transform: uppercase;
-	color: #ffffff;
-	padding: 0 0 2em;
+	color: #2e2e2e;
+	padding: 0 0 1em;
 }
 
 .contact a {
@@ -374,7 +375,7 @@ transform:translatey(0);
 
 #footer-container {
 	padding: 3em 2em 4em;
-	background-color: #2e2e2e;
+	background-color: #ffffff;
 	height: 15em;
 }
 
