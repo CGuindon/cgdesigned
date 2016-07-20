@@ -269,6 +269,10 @@ header li {
 	border-bottom: 1px solid #e2e2e2;
 }
 
+.role-list li {
+	list-style-type: none;
+}
+
 
 
 
