@@ -381,9 +381,9 @@ transform:translatey(0);
 		font-size: 0.6em;
 		color: #fff;
 		text-transform: uppercase;
-		text-align: right;
 		letter-spacing: 0.2em;
 		text-align: center;
+		display: inline-block;
 	}
 
 	#bottom .social {
