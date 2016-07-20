@@ -366,6 +366,12 @@ header li {
 [class*=' imghvr-fade']:hover figcaption {
   opacity: 0.2;
 }
+
+[class^='imghvr-fade']:hover figcaption h3,
+[class*=' imghvr-fade']:hover figcaption h3 {
+  opacity: 0;
+}
+
 [class^='imghvr-fade']:hover > img,
 [class*=' imghvr-fade']:hover > img,
 [class^='imghvr-fade']:hover figcaption,
