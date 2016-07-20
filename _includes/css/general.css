@@ -371,6 +371,7 @@ transform:translatey(0);
 	padding: 3em 2em 4em;
 	background-color: #2e2e2e;
 	height: 15em;
+	text-align: center;
 }
 
 	#bottom .copyright {
@@ -385,7 +386,7 @@ transform:translatey(0);
 	#bottom .social {
 		float: left;
 		padding-bottom: 2em;
-
+		display: inline-block;
 		}
 
 
@@ -758,12 +759,6 @@ dialog + .backdrop {
 
 
 
-
-
-@media only screen and (min-width: 23em) {
-
-
-}
 
 
 @media only screen and (max-width : 33em) {
