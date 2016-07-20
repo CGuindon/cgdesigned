@@ -371,7 +371,10 @@ transform:translatey(0);
 	padding: 3em 2em 4em;
 	background-color: #2e2e2e;
 	height: 15em;
-	text-align: center;
+}
+
+#bottom .container {
+		text-align: center;
 }
 
 	#bottom .copyright {
