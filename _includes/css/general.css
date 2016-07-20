@@ -360,7 +360,7 @@ transform:translatey(0);
 }
 
 .contact a {
-	color: #00a78a;
+	color: #3fd5ae;
 }
 
 .contact a:hover {
@@ -405,7 +405,7 @@ transform:translatey(0);
 	}
 
 	#bottom a:hover {
-		color: #00a78a;
+		color: #3fd5ae;
 	}
 
 
@@ -819,8 +819,15 @@ dialog + .backdrop {
 
 }
 
-@media only screen and (min-width: 50em){
+@media only screen and (max-width: 60em){
 
+	#bottom .social {
+		float: none;
+		}
+
+	#bottom {
+		text-align: center;
+		}
 
 }
 
