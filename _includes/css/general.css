@@ -798,36 +798,7 @@ dialog + .backdrop {
 		position: fixed;
 	}
 
-	#menu-icon {
-		display:inline-block;
-	}
 
-	header nav ul, nav:active ul {
-
-		display: none;
-		position: fixed;
-		padding: 1em;
-		right: 3em;
-		top: 3em;
-		width: 30%;
-		border-radius: 4px 4px 4px 4px;
-
-	}
-
-	header nav li {
-
-		text-align: center;
-		width: 100%;
-		padding: 1em 0;
-		margin: 0;
-
-	}
-
-	header nav:hover ul {
-
-		display: block;
-
-	}
 
 	.social a {
 		display: block;
