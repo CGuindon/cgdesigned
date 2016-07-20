@@ -382,7 +382,6 @@ transform:translatey(0);
 		color: #fff;
 		text-transform: uppercase;
 		text-align: right;
-		float: right;
 		letter-spacing: 0.2em;
 		text-align: center;
 	}
@@ -818,19 +817,20 @@ dialog + .backdrop {
 
 }
 
-@media only screen and (max-width: 70em){
+@media only screen and (min-width: 70em){
 
 	#bottom .social {
-		float: none;
-		display: inline-block;
+		float: left;
+		display: block;
 		}
 
 		#bottom .copyright {
-			text-align: center;
+			text-align: right;
+			float: right;
 		}
 
-	#container {
-		text-align: center;
+	#bottom .container {
+		text-align: left;
 		}
 
 }
