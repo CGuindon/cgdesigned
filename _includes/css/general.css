@@ -387,7 +387,6 @@ transform:translatey(0);
 	}
 
 	#bottom .social {
-		float: left;
 		padding-bottom: 2em;
 		display: inline-block;
 		}
