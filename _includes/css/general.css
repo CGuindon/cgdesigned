@@ -823,9 +823,10 @@ dialog + .backdrop {
 
 	#bottom .social {
 		float: none;
+		display: inline-block;
 		}
 
-	#bottom {
+	#container {
 		text-align: center;
 		}
 
