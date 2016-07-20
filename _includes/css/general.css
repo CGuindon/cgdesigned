@@ -290,7 +290,7 @@ overflow:hidden;
 top:0;
 left:0;
 opacity:0;
-background-color:rgba(255,255,255,0.9);
+background-color:rgba(63,213,174,0.9);
 -webkit-transition:all .4s ease-in-out;
 transition:all .4s ease-in-out
 }
@@ -307,8 +307,7 @@ text-transform:uppercase;
 color:#2e2e2e;
 text-align:center;
 position:relative;
-font-size:17px;
-font-weight: lighter;
+font-size:1.5em;
 -webkit-transform:translatey(-100px);
 -ms-transform:translatey(-100px);
 transform:translatey(-100px);
