@@ -110,22 +110,6 @@ header nav {
 
 }
 
-#menu-icon {
-
-	display: hidden;
-	width: 1.75em;
-	height: 1.75em;
-	background: url(../img/i-menu.png) center;
-	background-size: 100%;
-	background-repeat: no-repeat;
-}
-
-header a:hover#menu-icon {
-
-	border-radius: 4px 4px 0 0;
-
-}
-
 header ul {
 
 	list-style: none;
