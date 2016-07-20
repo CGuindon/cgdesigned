@@ -349,9 +349,8 @@ transform:translatey(0);
 .contact {
 	font-size: .8em;
 	padding: 0;
-	color: #2e2e2e;
+	color: #fff;
 	background-color: #ffffff;
-	border-top: #3fd5ae solid .3em;
 }
 
 .contact-info {
@@ -361,31 +360,35 @@ transform:translatey(0);
 
 .contact h3 {
 	text-transform: uppercase;
-	color: #2e2e2e;
+	color: #fff;
 	padding: 0 0 1em;
 }
 
 .contact a {
-	color: #3fd5ae;
+	color: #000;
+	text-decoration: underline;
 }
 
 .contact a:hover {
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 .box1 {
 	background-color: #3fd5ae;
 	padding: 4em 0;
+	height: 20em;
 }
 
 .box2 {
-	background-color: #6cdfc1;
+	background-color: #12cb9b;
 	padding: 4em 0;
+	height: 20em;
 }
 
 .box3 {
-	background-color: #9be9d5;
+	background-color: #10bd8f;
 	padding: 4em 0;
+	height: 20em;
 }
 
 
