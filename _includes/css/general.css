@@ -348,7 +348,7 @@ transform:translatey(0);
 
 .contact {
 	font-size: .8em;
-	padding: 4em 0;
+	padding: 0;
 	color: #2e2e2e;
 	background-color: #ffffff;
 	border-top: #3fd5ae solid .3em;
@@ -372,6 +372,25 @@ transform:translatey(0);
 .contact a:hover {
 	text-decoration: underline;
 }
+
+.box1 {
+	background-color: #3fd5ae;
+	padding: 4em 0;
+}
+
+.box2 {
+	background-color: #6cdfc1;
+	padding: 4em 0;
+}
+
+.box3 {
+	background-color: #9be9d5;
+	padding: 4em 0;
+}
+
+
+
+
 
 #footer-container {
 	padding: 3em 2em 4em;
