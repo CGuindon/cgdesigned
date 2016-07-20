@@ -826,9 +826,8 @@ dialog + .backdrop {
 		display: inline-block;
 		}
 
-	#bottom .copyright {
-		float: none;
-		display: inline-block;
+		#bottom .copyright {
+			text-align: center;
 		}
 
 	#container {
