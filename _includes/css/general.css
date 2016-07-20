@@ -65,16 +65,17 @@ outline: 2px solid #000;
 }
 
 a {
-	color: #fefefe;
+	color: #eee;
 	text-decoration: none;
 }
 
 header a {
 	text-transform: uppercase;
+	font-size: 0.85em;
 }
 
 header a:hover {
-	color: #00a78a;
+	color: #3fd5ae;
 }
 
 header {
@@ -99,7 +100,7 @@ header {
 	background: url(../img/logo.png) no-repeat center;
 	background-size: contain;
 	display: block;
-
+	font-size: 1em;
 }
 
 header nav {
@@ -265,8 +266,7 @@ header li {
 }
 
 #work {
-	padding-bottom: 2em;
-	border-bottom: 1px solid #e2e2e2;
+
 }
 
 .role-list {
@@ -365,8 +365,9 @@ transform:translatey(0);
 }
 
 .contact a {
-	color: #000;
+	color: #fff;
 	text-decoration: underline;
+	font-weight: bolder;
 }
 
 .contact a:hover {
@@ -863,10 +864,6 @@ dialog + .backdrop {
 }
 
 @media only screen and (min-width: 64em) {
-
-	.contact {
-	padding: 4em 0;
-}
 
 .my-process {
 	padding-left: 15em;
