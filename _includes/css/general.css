@@ -290,7 +290,7 @@ overflow:hidden;
 top:0;
 left:0;
 opacity:0;
-background-color:rgba(0,0,0,0.5);
+background-color:rgba(255,255,255,0.7);
 -webkit-transition:all .4s ease-in-out;
 transition:all .4s ease-in-out
 }
@@ -304,10 +304,11 @@ transition:all .4s linear;
 
 .hovereffect h2 {
 text-transform:uppercase;
-color:#fff;
+color:#2e2e2e;
 text-align:center;
 position:relative;
 font-size:17px;
+font-weight: lighter;
 -webkit-transform:translatey(-100px);
 -ms-transform:translatey(-100px);
 transform:translatey(-100px);
@@ -316,24 +317,6 @@ transition:all .2s ease-in-out;
 padding:20%;
 }
 
-.hovereffect a.info {
-text-decoration:none;
-display:inline-block;
-text-transform:uppercase;
-color:#fff;
-border:1px solid #fff;
-background-color:transparent;
-opacity:0;
-filter:alpha(opacity=0);
--webkit-transition:all .2s ease-in-out;
-transition:all .2s ease-in-out;
-margin:50px 0 0;
-padding:7px 14px;
-}
-
-.hovereffect a.info:hover {
-box-shadow:0 0 5px #fff;
-}
 
 .hovereffect:hover img {
 -ms-transform:scale(1.2);
@@ -346,17 +329,12 @@ opacity:1;
 filter:alpha(opacity=100);
 }
 
-.hovereffect:hover h2,.hovereffect:hover a.info {
+.hovereffect:hover h2 {
 opacity:1;
 filter:alpha(opacity=100);
 -ms-transform:translatey(0);
 -webkit-transform:translatey(0);
 transform:translatey(0);
-}
-
-.hovereffect:hover a.info {
--webkit-transition-delay:.2s;
-transition-delay:.2s;
 }
 
 
