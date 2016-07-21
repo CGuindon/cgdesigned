@@ -514,7 +514,7 @@ dialog::backdrop {
 
 /* Need this for other browsers */
 dialog + .backdrop {
-	background-color: rgba(255,255,255,0.5);
+	background-color: rgba(0,255,0,0.5);
 }
 
 #btn-close {
@@ -523,11 +523,11 @@ dialog + .backdrop {
 	border-radius: 16px;
 	text-align: center;
 	line-height: 24px;
-	color: #99ffcc;
-	border: 2px solid #99ffcc;
-	background-color: rgba(0,0,0,0.5);
+	border: 2px solid #fff;
+	background-color: #000;
+	color: #fff;
 	box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
-	font-weight: lighter;
+	font-weight: bold;
 	cursor: pointer;
 	position: absolute;
 	top: -16px;

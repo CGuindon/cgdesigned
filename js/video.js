@@ -4,7 +4,7 @@ var $placeholder = $('#video-placeholder');
 dialogPolyfill.registerDialog($dialog.get(0)); // This will make it work in other browsers
 
 $('#btn-open').on('click', function () {
-	$placeholder.html('<iframe src="http://player.vimeo.com/video/81207970?autoplay=1" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>');
+	$placeholder.html('<iframe src="http://player.vimeo.com/video/81207970?color=ffffff&amp;autoplay=1" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>');
 
 	// in <iframe> remove http: when in normal browser
 
