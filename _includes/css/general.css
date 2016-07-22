@@ -210,10 +210,12 @@ header li {
 	font-size: 1.2em;
 	color: #2e2e2e;
 	text-align: left;
-	padding: 1em 0 3em;
 	font-family: 'Open Sans', sans-serif;
 	max-width: 36rem;
-	margin: auto;
+	margin: 5em auto 5em;
+	padding-left: 1em;
+	padding-right: 1em;
+	border-left: #3fd5ae solid 3px;
 }
 
 .process h1 {
@@ -724,15 +726,6 @@ header nav {
 
 	header li {
 		padding-top: 0;
-	}
-
-}
-
-@media only screen and (min-width: 33em){
-
-	.process {
-		padding-left: 1em;
-		padding-right: 1em;
 	}
 
 }
