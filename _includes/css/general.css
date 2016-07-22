@@ -383,7 +383,7 @@ transform:translatey(0);
 #footer-container {
 	padding: 3em 2em 4em;
 	background-color: #2e2e2e;
-	height: 15em;
+	height: 16em;
 }
 
 #bottom .container {
@@ -658,6 +658,9 @@ transform:translatey(0);
 
 
 
+
+
+
 @media only screen and (min-width: 23em) {
 
 	.app-feat-img {
@@ -687,60 +690,6 @@ transform:translatey(0);
 
 }
 
-@media only screen and (min-width: 36em) {
-
-	.app-feat-img {
-		height: 50em;
-	}
-
-}
-
-@media only screen and (min-width: 41em) {
-
-		.intro {
-		margin: 0;
-	}
-
-	.app-feat-img {
-		background-size: 150%;
-	}
-
-}
-
-@media only screen and (min-width: 60em) {
-
-		.grid {
-			margin: auto;
-			max-width: 100em;
-		}
-
-		.iphone-band {
-			max-width: 18em;
-			margin: 0 auto;
-		}
-
-		body {
-			font-size: 110%;
-		}
-
-}
-
-@media only screen and (min-width: 80em) {
-
-		.logo-a {
-			max-width: 20em;
-		}
-
-		.iphone-band {
-			max-width: 22em;
-		}
-
-}
-
-
-
-
-
 
 @media only screen and (max-width : 33em) {
 
@@ -759,6 +708,10 @@ header nav {
 		margin: 1em 0;
 	}
 
+	.hovereffect h2 {
+		font-size: 1em;
+	}
+
 }
 
 @media only screen and (min-width: 33em){
@@ -766,6 +719,26 @@ header nav {
 	.process {
 		padding-left: 1em;
 		padding-right: 1em;
+	}
+
+}
+
+@media only screen and (min-width: 36em) {
+
+	.app-feat-img {
+		height: 50em;
+	}
+
+}
+
+@media only screen and (min-width: 41em) {
+
+		.intro {
+		margin: 0;
+	}
+
+	.app-feat-img {
+		background-size: 150%;
 	}
 
 }
@@ -809,6 +782,24 @@ header nav {
 
 }
 
+@media only screen and (min-width: 60em) {
+
+		.grid {
+			margin: auto;
+			max-width: 100em;
+		}
+
+		.iphone-band {
+			max-width: 18em;
+			margin: 0 auto;
+		}
+
+		body {
+			font-size: 110%;
+		}
+
+}
+
 
 @media only screen and (min-width: 80em) {
 
@@ -816,5 +807,12 @@ header nav {
 		padding: 0 8em;
 	}
 
-}
+	.logo-a {
+			max-width: 20em;
+		}
 
+		.iphone-band {
+			max-width: 22em;
+		}
+
+}
