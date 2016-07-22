@@ -412,7 +412,7 @@ transform:translatey(0);
 		text-transform: uppercase;
 		vertical-align: bottom;
 		letter-spacing: 0.2em;
-		display: auto;
+		display: block;
 		margin: 1em 0;
 	}
 
