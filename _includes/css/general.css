@@ -412,6 +412,8 @@ transform:translatey(0);
 		text-transform: uppercase;
 		vertical-align: bottom;
 		letter-spacing: 0.2em;
+		display: block;
+		margin: 1em 0;
 	}
 
 	.social img {
@@ -711,11 +713,6 @@ header nav {
 	padding-top: 4em;
 }
 
-	.social a {
-		display: block;
-		margin: 1em 0;
-	}
-
 	.hovereffect h2 {
 		font-size: 1em;
 	}
@@ -764,6 +761,11 @@ header nav {
 
 	.features img {
 		width: 140%;
+	}
+
+	.social a {
+		display: inline-block;
+		margin: auto;
 	}
 
 }
