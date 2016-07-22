@@ -212,6 +212,8 @@ header li {
 	text-align: left;
 	padding: 1em 0 3em;
 	font-family: 'Open Sans', sans-serif;
+	max-width: 36rem;
+	margin: auto;
 }
 
 .process h1 {
@@ -229,13 +231,6 @@ header li {
 	text-align: center;
 }
 
-.process h2 {
-	font-size: 1.5em;
-	text-transform: uppercase;
-	font-family: 'Open Sans Condensed', sans-serif;
-	margin: 0;
-	}
-
 .img-process {
 	margin: auto;
 	text-align: center;
@@ -243,6 +238,10 @@ header li {
 	width: 100%;
 	margin-top: 2.5em;
 	max-width: 10em;
+}
+
+.process a {
+	color: #3fd5ae;
 }
 
 .work-single {
@@ -792,11 +791,6 @@ header nav {
 }
 
 @media only screen and (min-width: 64em) {
-
-.my-process {
-	padding-left: 15em;
-	padding-right: 15em;
-}
 
 .img-process {
 	max-width: 7em;
