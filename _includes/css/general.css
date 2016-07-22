@@ -768,6 +768,10 @@ header nav {
 		margin: auto;
 	}
 
+	#footer-container {
+			display: inline-block;
+		}
+
 }
 
 @media only screen and (min-width: 70em){
@@ -784,10 +788,6 @@ header nav {
 
 	#bottom .container {
 		text-align: left;
-		}
-
-		#footer-container {
-			display: inline-block;
 		}
 
 }
