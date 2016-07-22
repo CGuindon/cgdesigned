@@ -770,20 +770,21 @@ header nav {
 
 }
 
-@media only screen and (min-width: 70em){
 
-	#bottom .social {
-		float: left;
-		display: block;
+@media only screen and (min-width: 60em) {
+
+		.grid {
+			margin: auto;
+			max-width: 100em;
 		}
 
-		#bottom .copyright {
-			text-align: right;
-			float: right;
+		.iphone-band {
+			max-width: 18em;
+			margin: 0 auto;
 		}
 
-	#bottom .container {
-		text-align: left;
+		body {
+			font-size: 110%;
 		}
 
 }
@@ -807,22 +808,26 @@ header nav {
 	padding-top: 10em;
 }
 
+.unit-l-1 {
+	display: inline-block;
 }
 
-@media only screen and (min-width: 60em) {
+}
 
-		.grid {
-			margin: auto;
-			max-width: 100em;
+@media only screen and (min-width: 70em){
+
+	#bottom .social {
+		float: left;
+		display: block;
 		}
 
-		.iphone-band {
-			max-width: 18em;
-			margin: 0 auto;
+		#bottom .copyright {
+			text-align: right;
+			float: right;
 		}
 
-		body {
-			font-size: 110%;
+	#bottom .container {
+		text-align: left;
 		}
 
 }
