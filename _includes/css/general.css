@@ -824,7 +824,7 @@ header nav {
 }
 
 
-/*@media only screen and (min-width: 80em) {
+@media only screen and (min-width: 80em) {
 
 	.bg {
 		padding: 0 8em;
@@ -838,4 +838,4 @@ header nav {
 			max-width: 22em;
 		}
 
-}*/
+}
