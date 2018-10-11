@@ -198,7 +198,6 @@ header li {
 
 .about-bg {
 	background-color: #fff;
-	border-bottom: 1px solid #e2e2e2;
 }
 
 .about-block {
@@ -254,16 +253,15 @@ header li {
 	border-bottom: 1px solid #e2e2e2;
 }
 
-#work {
-
+.work-text-block {
+	border-left: none;
 }
+
 
 .role-list {
 	list-style-type: none;
 	padding: 0;
 }
-
-
 
 
 .hovereffect {
