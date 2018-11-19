@@ -276,6 +276,10 @@ header li {
 	border-left: none;
 }
 
+.storypoint {
+	border-left: #fefefe solid 3px;
+	margin: 5em auto 5em;
+}
 
 .role-list {
 	list-style-type: none;
