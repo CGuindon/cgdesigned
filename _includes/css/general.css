@@ -196,6 +196,25 @@ header li {
 	font-weight: lighter;
 }
 
+.nda {
+	font-size: 1.2em;
+	color: #3fd5ae;
+	text-align: left;
+	font-family: 'Open Sans', sans-serif;
+	font-style: italic;
+	max-width: 36rem;
+	margin: 1em auto 5em;
+	padding-left: 1em;
+	padding-right: 1em;
+	border-left: #fefefe solid 3px;
+
+}
+
+.nda p {
+	font-size: 0.8em;
+	margin: 1em 0 0;
+}
+
 .about-bg {
 	background-color: #fff;
 }
@@ -211,7 +230,7 @@ header li {
 	text-align: left;
 	font-family: 'Open Sans', sans-serif;
 	max-width: 36rem;
-	margin: 5em auto 5em;
+	margin: 5em auto 0em;
 	padding-left: 1em;
 	padding-right: 1em;
 	border-left: #3fd5ae solid 3px;
