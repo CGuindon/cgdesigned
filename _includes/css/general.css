@@ -52,9 +52,6 @@ a:focus{
 outline: 2px solid #000;
 }
 
-
-
-
 .flex-img {
 	display: block;
 	width:  100%;
@@ -507,19 +504,7 @@ transform:translatey(0);
 
 /* MEDIA QUERIES PAGES */
 
-@media only screen and (min-width: 23em) {
-
-	.app-feat-img {
-		height: 30em;
-	}
-
-}
-
 @media only screen and (min-width: 27em) {
-
-	.app-feat-img {
-		height: 40em;
-	}
 
 	.features li {
 		width: auto;
@@ -570,22 +555,10 @@ header nav {
 
 }
 
-@media only screen and (min-width: 36em) {
-
-	.app-feat-img {
-		height: 50em;
-	}
-
-}
-
 @media only screen and (min-width: 41em) {
 
 		.intro {
 		margin: 0;
-	}
-
-	.app-feat-img {
-		background-size: 150%;
 	}
 
 .features li {
