@@ -498,6 +498,31 @@ transform:translatey(0);
 	background-color: #fff;
 }
 
+.sports-bg-grey {
+	background-color: #E0E0E0;
+}
+
+.sports-bg-white {
+	background-color: #EEEDED;
+}
+
+.sports-bg-blue {
+	background-color: #013369;
+}
+
+.sports-bg-whiteff {
+	background-color: #ffffff;
+}
+
+.sports-bg-blue h2 {
+	color: #fff;
+	padding-top: 3rem;
+}
+
+.sports-bg-blue p {
+	color: #fff;
+}
+
 
 
 /* MEDIA QUERIES PAGES */
