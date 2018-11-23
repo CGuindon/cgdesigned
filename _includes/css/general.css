@@ -523,6 +523,14 @@ transform:translatey(0);
 	color: #fff;
 }
 
+.soi-bg-white {
+	background-color: #f4f3ee;
+}
+
+.navcan-bg-white {
+	background-color: #dcdcdc;
+}
+
 
 
 /* MEDIA QUERIES PAGES */
