@@ -532,11 +532,25 @@ transform:translatey(0);
 }
 
 .toonix-bg-white {
-	background-color: #EAEAE5;
+	background-color: #F5F5F5;
+}
+
+.toonix-bg-white a {
+	color: #10bd8f;
+	text-decoration: underline;
+	font-weight: bolder;
+}
+
+.toonix-bg-white a:hover {
+	text-decoration: none;
 }
 
 .toonix-bg-blue {
 	background-color: #009BDF;
+}
+
+.toonix-bg-dark {
+	background-color: #127ED0;
 }
 
 .toonix-bg-blue h2 {
