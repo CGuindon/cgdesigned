@@ -531,6 +531,22 @@ transform:translatey(0);
 	background-color: #dcdcdc;
 }
 
+.toonix-bg-white {
+	background-color: #EAEAE5;
+}
+
+.toonix-bg-blue {
+	background-color: #009BDF;
+}
+
+.toonix-bg-blue h2 {
+	color: #fff;
+}
+
+.toonix-bg-blue p {
+	color: #fff;
+}
+
 
 
 /* MEDIA QUERIES PAGES */
