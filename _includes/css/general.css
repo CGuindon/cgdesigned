@@ -42,14 +42,15 @@ top: 0;
 }
 
 a:hover,
-a:active{
+a:active,
+:focus:active{
 /* its ok to remove outline here because its only for the mouse users. */
-	outline:none;
+	outline: none;
 }
 
 a:focus{
 /*YOU MUST ALWAYS HAVE AN OUTLINE HERE*/
-outline: 2px solid #000;
+outline: 2px solid #3fd5ae;
 }
 
 .flex-img {
@@ -120,7 +121,6 @@ header li {
 	display: inline-block;
 	float: left;
 	padding: .5em 1em;
-
 }
 
 .logo {
@@ -562,7 +562,20 @@ transform:translatey(0);
 }
 
 .edc-bg-white {
-	color: F2F5F8;
+	background-color: #F2F5F8;
+}
+
+.edc-bg-grey {
+	background-color: #DADFE4;
+}
+
+.edc-bg-blue {
+	background-color: #077DB3;
+}
+
+.edc-bg-blue p,
+.edc-bg-blue h2 {
+	color: #fff;
 }
 
 
