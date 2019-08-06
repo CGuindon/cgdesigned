@@ -93,7 +93,7 @@ header {
 
 #logo{
 
-	margin: 1em 1em 1em 2em;
+	margin: 1em 1em 1em 6em;
 	float: left;
 	width: 4em;
 	height: 4em;
@@ -127,76 +127,8 @@ header li {
 	max-width: 10em;
 }
 
-
-.bg-box {
-	position: fixed;
-  top: -1%;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-}
-
-.bg-home {
-	background: url(../img/bg-intro.jpg) center no-repeat;
-	position: absolute;
-	top: 0;
-	margin: auto;
-}
-
-
-.h1-bg {
-	padding-top: 6em;
-}
-
-.intro {
-	text-align: center;
-	margin: 0;
-	color: #fff;
-	font-weight: thin;
-}
-
-.intro {
-	margin: 0;
-	font-family: 'Open Sans', serif;
-	text-transform: uppercase;
-	letter-spacing: 0.04em;
-	line-height: 1;
-}
-
-.intro p {
-	margin: 0;
-}
-
-.intro img {
-	background-size: 100%;
-}
-
-.font-name {
-	text-align: center;
-	font-size: 0.85rem;
-	color: #fefefe;
-	padding-top: 5em;
-	font-weight: lighter;
-}
-
-.font-graphic {
-	text-align: center;
-	font-size: 2.5rem;
-	line-height: 0.9;
-	padding-top: 1rem;
-	font-weight: bold;
-}
-
-.font-handstand {
-	text-align: center;
-	font-size: 0.85rem;
-	color: #fefefe;
-	padding: 1rem 0 8em;
-	font-weight: lighter;
-}
-
 .nda {
-	font-size: 1.2em;
+	font-size: 0.8em;
 	color: #3fd5ae;
 	text-align: left;
 	font-family: 'Open Sans', sans-serif;
@@ -206,11 +138,6 @@ header li {
 	padding-left: 1em;
 	padding-right: 1em;
 	border-left: #fefefe solid 3px;
-}
-
-.nda p {
-	font-size: 0.8em;
-	margin: 1em 0 0;
 }
 
 .about-bg {
@@ -227,8 +154,8 @@ header li {
 	color: #2e2e2e;
 	text-align: left;
 	font-family: 'Open Sans', sans-serif;
-	max-width: 36rem;
-	margin: 5em auto 0em;
+	max-width: 30rem;
+	margin: 6em 3em 0em;
 	padding-left: 1em;
 	padding-right: 1em;
 	border-left: #3fd5ae solid 3px;
@@ -239,15 +166,30 @@ header li {
 }
 
 .process h1 {
-	font-size: 1em;
+	font-size: 3em;
+	font-weight: bold;
 	font-family: 'Open Sans', sans-serif;
 	line-height: 1.2;
+	margin: 0;
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+	line-height: 1;
+}
+
+.process h2 {
+	text-align: left;
+	font-size: 1em;
+	color: #2e2e2e;
+	padding: 0.5rem 0.3rem 1rem;
+	font-weight: lighter;
+	text-transform: uppercase;
+	line-height: 1.3;
 	margin: 0;
 }
 
 .process p {
-	font-size: 0.8em;
-	margin: 1em 0 0;
+	font-size: 1em;
+	margin: 1em 0.3rem 0;
 	line-height: 1.6;
 }
 
@@ -258,10 +200,6 @@ header li {
 	width: 100%;
 	margin-top: 2.5em;
 	max-width: 10em;
-}
-
-.process a {
-	color: #3fd5ae;
 }
 
 .work-single {
@@ -659,6 +597,10 @@ header nav {
 		/*max-width: 100em;*/
 	}
 
+	.process {
+		max-width: 34rem;
+	}
+
 	body {
 		font-size: 110%;
 	}
@@ -669,10 +611,6 @@ header nav {
 
 .img-process {
 	max-width: 7em;
-}
-
-.font-handstand {
-	padding-bottom: 15em;
 }
 
 .font-name {
