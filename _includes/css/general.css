@@ -140,20 +140,10 @@ header li {
 	border-left: #fefefe solid 3px;
 }
 
-.about-bg {
-	background-color: #fff;
-}
-
-.about-block {
-	padding: 4em 2em;
-	background-color: #fff
-}
-
-.process {
+.about {
 	font-size: 1.2em;
 	color: #2e2e2e;
 	text-align: left;
-	font-family: 'Open Sans', sans-serif;
 	max-width: 30rem;
 	margin: 6em 3em 0em;
 	padding-left: 1em;
@@ -161,11 +151,11 @@ header li {
 	border-left: #3fd5ae solid 3px;
 }
 
-.process-padding {
+.about-padding {
 	padding: 0 1em;
 }
 
-.process h1 {
+.about h1 {
 	font-size: 3em;
 	font-weight: bold;
 	font-family: 'Open Sans', sans-serif;
@@ -176,7 +166,7 @@ header li {
 	line-height: 1;
 }
 
-.process h2 {
+.about h2 {
 	text-align: left;
 	font-size: 1em;
 	color: #2e2e2e;
@@ -187,19 +177,10 @@ header li {
 	margin: 0;
 }
 
-.process p {
+.about p {
 	font-size: 1em;
 	margin: 1em 0.3rem 0;
 	line-height: 1.6;
-}
-
-.img-process {
-	margin: auto;
-	text-align: center;
-	display: block;
-	width: 100%;
-	margin-top: 2.5em;
-	max-width: 10em;
 }
 
 .work-single {
