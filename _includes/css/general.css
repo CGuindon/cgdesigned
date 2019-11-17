@@ -68,23 +68,23 @@ a {
 }
 
 #top {
-	margin-top: -6em;
+	margin-top: -6rem;
 }
 
 #logo{
 
-	margin: 1em 1em 1em 2em;
+	margin: 1rem 1rem 1rem 3rem;
 	float: left;
-	width: 4em;
-	height: 4em;
+	width: 4rem;
+	height: 4rem;
 	background: url(../img/logo.svg) no-repeat center;
 	background-size: contain;
 	display: block;
-	font-size: 1em;
+	font-size: 1rem;
 }
 
 .logo {
-	max-width: 10em;
+	max-width: 10rem;
 }
 
 header a:hover {
@@ -187,6 +187,9 @@ nav a {
 	padding: 0;
 }
 
+.works {
+	padding: 0 3rem;
+}
 
 .hovereffect {
 width:100%;
@@ -196,6 +199,7 @@ overflow:hidden;
 position:relative;
 text-align:center;
 cursor:default;
+margin: 3rem 0;
 }
 
 .hovereffect .overlay {
