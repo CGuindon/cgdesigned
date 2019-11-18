@@ -131,7 +131,7 @@ nav a {
 }
 
 .about-padding {
-	padding: 9rem 1em;
+	margin: 9rem 0 1rem;
 }
 
 .about h1 {
@@ -172,6 +172,10 @@ nav a {
 	font-style: italic;
 }
 
+#work {
+	padding-top: 5rem;
+}
+
 .work-single {
 	padding-bottom: 0em;
 	padding-top: 0em;
@@ -199,7 +203,7 @@ overflow:hidden;
 position:relative;
 text-align:center;
 cursor:default;
-margin: 3rem 0;
+margin: 1.5rem 0;
 }
 
 .hovereffect .overlay {
