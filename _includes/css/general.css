@@ -172,6 +172,18 @@ nav a {
 	font-style: italic;
 }
 
+.boxes {
+	display: flex;
+	justify-content: space-around;
+	margin: 6rem 3rem;
+  }
+  
+  .box {
+	background-color: tomato;
+	padding: 0;
+	flex: 1 1;
+  }
+
 #work {
 	padding-top: 5rem;
 }
@@ -192,18 +204,14 @@ nav a {
 }
 
 .works {
-	padding: 0 3rem;
+	padding: 0 0rem;
 }
 
 .hovereffect {
-width:100%;
-height:100%;
-float:left;
 overflow:hidden;
 position:relative;
 text-align:center;
 cursor:default;
-margin: 1.5rem 0;
 }
 
 .hovereffect .overlay {
@@ -231,13 +239,10 @@ text-transform:uppercase;
 color:#ffffff;
 text-align:center;
 position:relative;
-font-size:1.5em;
--webkit-transform:translatey(-100px);
--ms-transform:translatey(-100px);
-transform:translatey(-100px);
+font-size:1rem;
 -webkit-transition:all .2s ease-in-out;
 transition:all .2s ease-in-out;
-padding:20%;
+padding:17%;
 }
 
 
