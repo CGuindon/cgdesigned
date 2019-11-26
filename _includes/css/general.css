@@ -172,21 +172,22 @@ nav a {
 	font-style: italic;
 }
 
-.boxes {
-	display: flex;
-	justify-content: space-around;
-	margin: 6rem 3rem;
-  }
-  
-  .box {
-	background-color: tomato;
-	padding: 0;
-	flex: 1 1;
+#work {
+	margin: 12rem 3rem 3rem;
+}
+
+.box {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
+	grid-gap: 3rem;
+	margin-bottom: 12rem;
+	align-items: center;
+
   }
 
-#work {
-	padding-top: 5rem;
-}
+.box > div {
+	padding: 0rem;
+  }
 
 .work-single {
 	padding-bottom: 0em;
