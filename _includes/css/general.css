@@ -12,6 +12,7 @@ body {
 	padding: 0;
 	margin: 0;
 	margin-top: 6em;
+	color: #363336;
 }
 
 .skiplinks{
@@ -176,18 +177,34 @@ nav a {
 	margin: 12rem 3rem 3rem;
 }
 
-.box {
+.grid-1 {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
 	grid-gap: 3rem;
-	margin-bottom: 12rem;
+	max-width: 70rem;
+	margin: 10% auto;
 	align-items: center;
-
   }
 
 .box > div {
 	padding: 0rem;
   }
+
+.synopsis {
+	max-width: 30rem;
+}
+
+.synopsis h2 {
+	font-size: 3rem;
+	font-weight: 600;
+	margin: 0;
+	padding: 0;
+}
+
+.synopsis p {
+	font-size: 1rem;
+	line-height: 1.5;	
+}
 
 .work-single {
 	padding-bottom: 0em;
