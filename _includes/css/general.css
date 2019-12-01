@@ -174,7 +174,7 @@ nav a {
 }
 
 #work {
-	margin: 12rem 3rem 3rem;
+	margin: 3rem 3rem 3rem;
 }
 
 .grid-1 {
@@ -182,7 +182,7 @@ nav a {
 	grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
 	grid-gap: 3rem;
 	max-width: 70rem;
-	margin: 10% auto;
+	margin: 12rem auto;
 	align-items: center;
   }
 
@@ -195,7 +195,7 @@ nav a {
 }
 
 .synopsis h2 {
-	font-size: 3rem;
+	font-size: 2.75rem;
 	font-weight: 600;
 	margin: 0;
 	padding: 0;
@@ -257,22 +257,21 @@ overflow:hidden;
 top:0;
 left:0;
 opacity:0;
-background-color:rgba(63,213,174,0.9);
--webkit-transition:all .4s ease-in-out;
-transition:all .4s ease-in-out
+-webkit-transition:all .3s ease-in-out;
+transition:all .3s ease-in-out
 }
 
 .hovereffect img {
 display:block;
 position:relative;
--webkit-transition:all .4s linear;
-transition:all .4s linear;
+-webkit-transition:all .3s linear;
+transition:all .3s linear;
 }
 
 .hovereffect:hover img {
--ms-transform:scale(1.2);
--webkit-transform:scale(1.2);
-transform:scale(1.2);
+-ms-transform:scale(1.05);
+-webkit-transform:scale(1.05);
+transform:scale(1.05);
 }
 
 .hovereffect:hover .overlay {
