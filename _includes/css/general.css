@@ -173,25 +173,33 @@ nav a {
 	font-style: italic;
 }
 
-.about-mid {
-	margin: 6rem 0;
-	background-color: tomato;
-	padding: 3rem;
+#work {
+	margin-top: 6rem;
 }
 
-#work {
-	margin: 3rem 3rem 3rem;
+.grid-bg {
+	padding: 6rem 3rem;
+}
+
+.bg-1 {
+	background-color: #E0E0E0;
+}
+
+.bg-2 {
+	background-color: #ffffff;
+}
+
+.bg-3 {
+	background-color: #ECEAED;
 }
 
 .grid-1 {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
 	grid-gap: 3rem;
-	margin: 9rem auto;
+	margin: auto;
 	max-width: 70rem;
 	align-items: center;
-	padding-bottom: 9rem;
-	border-bottom: 2px #eeeeee solid;
   }
 
 .box > div {
