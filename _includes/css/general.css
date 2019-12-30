@@ -185,20 +185,6 @@ nav a {
 	margin-top: 6rem;
 }
 
-/*
-.bg-1 {
-	background-color: #E0E0E0;
-}
-
-.bg-2 {
-	background-color: #ffffff;
-}
-
-.bg-3 {
-	background-color: #ECEAED;
-}
-*/
-
 .grid-1 {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
@@ -252,25 +238,6 @@ nav a {
 
 .synopsis a:hover {
 	padding-right: 5rem;
-}
-
-.work-single {
-	padding-bottom: 0em;
-	padding-top: 0em;
-	border-bottom: 1px solid #e2e2e2;
-}
-
-.work-text-block {
-	border-left: none;
-}
-
-.role-list {
-	list-style-type: none;
-	padding: 0;
-}
-
-.works {
-	padding: 0 0rem;
 }
 
 .hovereffect {
@@ -414,13 +381,32 @@ filter:alpha(opacity=100);
 
 /* PROJECT PAGES */
 
+.work-single {
+	padding: 0;
+}
+
+.work-top {
+	padding: 9rem 0 0;
+}
+
+.role-list {
+	list-style-type: none;
+	padding: 0;
+}
+
+.grid-2 {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(22rem, 70%));
+	margin: auto;
+	padding: 6rem 3rem;
+	max-width: 70rem;
+	align-items: center;
+  }
+
 .storypoint {
-	margin: 5em auto 5em;
+	margin: auto;
 	color: #2e2e2e;
 	font-family: 'Open Sans', sans-serif;
-	max-width: 43rem;
-	padding-left: 1em;
-	padding-right: 1em;
 }
 
 .storypoint h1 {
@@ -429,14 +415,14 @@ filter:alpha(opacity=100);
 	line-height: 1.2;
 	padding-bottom: 0.5rem;
 	margin: 0;
-	text-align: center;
+	text-align: left;
 }
 
 .storypoint h4 {
 	font-size: 1.1rem;
 	line-height: 1.6;
 	margin: 1em 0 0;
-	text-align: center;
+	text-align: left;
 	font-weight: normal;
 }
 
@@ -446,7 +432,7 @@ filter:alpha(opacity=100);
 	line-height: 1.2;
 	padding-bottom: 0.5rem;
 	margin: 0;
-	text-align: center;
+	text-align: left;
 }
 
 .storypoint p {
@@ -559,35 +545,6 @@ filter:alpha(opacity=100);
 	}
 }
 
-
-@media only screen and (max-width : 33em) {
-
-	header {
-		position: fixed;
-	}
-
-header nav {
-	padding: 0em 0.5em 0 0;
-	}
-
-	.header-a {
-		padding-top: 4em;
-	}
-
-	.hovereffect h2 {
-		font-size: 1em;
-	}
-
-	#logo {
-		font-size: 0.7em;
-	}
-
-	header li {
-		padding-top: 0;
-	}
-
-}
-
 @media only screen and (min-width: 49em) {
 
 	.intro {
@@ -641,17 +598,13 @@ header nav {
 
 @media only screen and (min-width: 64em) {
 
-.img-process {
-	max-width: 7em;
-}
+	.img-process {
+		max-width: 7em;
+	}
 
-.font-name {
-	padding-top: 10em;
-}
-
-.unit-l-1 {
-	display: inline-block;
-}
+	.font-name {
+		padding-top: 10em;
+	}
 
 }
 
