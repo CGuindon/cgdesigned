@@ -402,10 +402,10 @@ filter:alpha(opacity=100);
 
 .grid-2 {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(22rem, 70%));
+	grid-template-columns: 1fr;
 	margin: auto;
 	padding: 6rem 3rem;
-	max-width: 70rem;
+	max-width: 50rem;
 	align-items: center;
   }
 
