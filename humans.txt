@@ -35,13 +35,13 @@ Name: Thomas J. Bradley (Web Master)
 /* SITE */
 
 
-Last update: 2013/11/16
+Last update: 2020/01/01
 
 
 Standards: HTML5, CSS3
 
 
-Components: Modernizr, jQuery, Lightbox, Normalizer
+Components: Normalizer
 
 
-Software: Sublime Text, Adobe Creative Suite
+Software: Sketch, Visual Studio Code, Adobe Creative Suite

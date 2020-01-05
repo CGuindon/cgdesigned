@@ -2,6 +2,4 @@
 ---
 
 {% include css/normalize.css %}
-{% include css/grid.css %}
 {% include css/general.css %}
-{% include css/lightbox.css %}
