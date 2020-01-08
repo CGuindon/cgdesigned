@@ -277,50 +277,21 @@ h4 {
 
 /* CTA */
 
-.contact {
-  font-size: 0.8em;
-  padding: 0;
-  color: #fff;
-  background-color: #ffffff;
-}
-
-.contact-info {
-  width: 15em;
-  margin: auto;
-}
-
-.contact h3 {
-  text-transform: uppercase;
-  color: #fff;
-  padding: 0 0 1em;
-}
-
-.contact a {
-  color: #fff;
-  text-decoration: underline;
-  font-weight: bolder;
-}
-
-.contact a:hover {
-  text-decoration: none;
-}
-
-.box1 {
+.cta-work {
   background-color: #3fd5ae;
-  padding: 4em 0;
-  height: 20em;
+  padding: 1rem 0;
 }
 
-.box2 {
-  background-color: #12cb9b;
-  padding: 4em 0;
-  height: 20em;
-}
-
-.box3 {
-  background-color: #10bd8f;
-  padding: 4em 0;
-  height: 20em;
+.cta-work a {
+  color: #fff;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  background: transparent url(/img/i-arrow-right-white.svg) center right
+    no-repeat;
+  background-size: 2.5rem;
+  padding-right: 4rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 /* FOOTER */
