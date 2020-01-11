@@ -278,12 +278,26 @@ h4 {
 /* CTA */
 
 .cta-work {
-  background-color: #3fd5ae;
-  padding: 1rem 0;
+  background-color: #10bd8f;
+  padding: 1rem 3rem;
 }
 
-.cta-work a {
-  color: #fff;
+.cta {
+  max-width: 30rem;
+}
+
+.cta h4 {
+  color: #ffffff;
+  margin: 0;
+}
+
+.cta h2 {
+  color: #ffffff;
+  margin: 0 0 3rem;
+}
+
+.cta a {
+  color: #ffffff;
   font-size: 0.9rem;
   text-transform: uppercase;
   background: transparent url(/img/i-arrow-right-white.svg) center right
@@ -292,6 +306,10 @@ h4 {
   padding-right: 4rem;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+}
+
+.cta a:hover {
+  padding-right: 5rem;
 }
 
 /* FOOTER */
