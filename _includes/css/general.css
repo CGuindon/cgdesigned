@@ -460,6 +460,15 @@ h4 {
   margin: 1em 0 0;
 }
 
+.storypoint a {
+  color: #363336;
+  border-bottom: solid 1px #d9d9d9;
+}
+
+.storypoint a:hover {
+  color: #3fd5ae;
+}
+
 .storypoint-list li {
   padding-bottom: 1rem;
 }
