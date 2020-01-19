@@ -275,6 +275,28 @@ h4 {
   filter: alpha(opacity=100);
 }
 
+/* OLD PROJECTS */
+
+.old-projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-gap: 3rem;
+}
+
+.grid-4 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+  margin: auto;
+  padding: 6rem 3rem 1rem;
+  max-width: 70rem;
+  align-items: center;
+}
+
+.cta-old {
+  background-color: #827c82;
+  padding-bottom: 6rem;
+}
+
 /* CTA */
 
 .cta-work {
@@ -471,6 +493,24 @@ h4 {
 
 .storypoint-list li {
   padding-bottom: 1rem;
+}
+
+.role-tags {
+  padding: 0;
+  list-style-type: none;
+}
+
+.tag {
+  padding: 0.15rem 0.25rem;
+  background-color: #e2e2e2;
+  border: solid 1px #d9d9d9;
+  border-radius: 3px;
+  margin: 1rem 0.5rem 0 0;
+  display: inline-block;
+}
+
+.grey {
+  color: #827c82;
 }
 
 .myc-bg-grey {
