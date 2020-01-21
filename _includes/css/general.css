@@ -289,12 +289,17 @@ h4 {
 }
 
 .grid-4 {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
   margin: auto;
   padding: 6rem 3rem 1rem;
   max-width: 70rem;
   align-items: center;
+}
+
+@media (min-width: 25em) {
+  .grid-4 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+  }
 }
 
 .cta-old {
