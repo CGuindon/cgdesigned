@@ -311,7 +311,12 @@ h4 {
 
 .cta-work {
   background-color: #10bd8f;
-  padding: 1rem 3rem;
+  padding: 1rem 0;
+}
+@media (min-width: 25em) {
+  .cta-work {
+    padding: 1rem 3rem;
+  }
 }
 
 .cta {
