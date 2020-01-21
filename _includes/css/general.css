@@ -354,8 +354,12 @@ h4 {
 .grid-social-main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(2rem, 3rem));
-  grid-gap: 1rem;
   justify-content: center;
+}
+@media (min-width: 25em) {
+  .grid-social-main {
+    grid-gap: 1rem;
+  }
 }
 
 .grid-link {
