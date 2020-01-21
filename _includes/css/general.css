@@ -144,13 +144,18 @@ h4 {
 }
 
 .about h1 {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   font-weight: bold;
   font-family: "Open Sans", sans-serif;
   line-height: 1.2;
   text-transform: uppercase;
   line-height: 1;
   margin: 0;
+}
+@media (min-width: 25em) {
+  .about h1 {
+    font-size: 3.5rem;
+  }
 }
 
 .about h4 {
@@ -282,10 +287,12 @@ h4 {
 
 /* OLD PROJECTS */
 
-.old-projects {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-  grid-gap: 3rem;
+@media (min-width: 25em) {
+  .old-projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-gap: 3rem;
+  }
 }
 
 .grid-4 {
@@ -311,7 +318,12 @@ h4 {
 
 .cta-work {
   background-color: #10bd8f;
-  padding: 1rem 3rem;
+  padding: 1rem 0;
+}
+@media (min-width: 25em) {
+  .cta-work {
+    padding: 1rem 3rem;
+  }
 }
 
 .cta {
@@ -353,9 +365,14 @@ h4 {
 
 .grid-social-main {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(2rem, 3rem));
-  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(2rem, 2.5rem));
   justify-content: center;
+}
+@media (min-width: 25em) {
+  .grid-social-main {
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(2rem, 3rem));
+  }
 }
 
 .grid-link {
