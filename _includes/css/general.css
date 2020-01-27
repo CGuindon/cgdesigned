@@ -605,3 +605,34 @@ h4 {
 .edc-bg-blue h2 {
   color: #fff;
 }
+
+.re-bg-blue {
+  background-color: #0000ff;
+}
+
+.re-bg-grey {
+  background-color: #f1f1f1;
+}
+
+.re-bg-white {
+  background-color: #ffffff;
+}
+
+.re-problem h3,
+.re-problem p {
+  font-style: italic;
+  text-align: center;
+}
+
+.re-problem h3 {
+  font-size: 1rem;
+  margin: 2rem 0 1rem;
+  color: #9999ff;
+  font-weight: lighter;
+}
+
+.re-problem p {
+  font-size: 1.125rem;
+  margin: 0 0 2rem;
+  color: #fff;
+}
