@@ -636,3 +636,33 @@ h4 {
   margin: 0 0 2rem;
   color: #fff;
 }
+
+.re-box {
+  border: #d9d9d9 solid 1px;
+  padding: 3rem;
+  height: 25rem;
+}
+
+.re-box h3 {
+  font-weight: lighter;
+  color: #827c82;
+  font-size: 0.85rem;
+  margin: 0;
+}
+
+.re-box h4 {
+  color: #363336;
+  text-transform: none;
+  margin-top: 0;
+}
+
+.re-box img {
+  height: 4rem;
+  margin-bottom: 2rem;
+}
+
+.re-quote {
+  font-style: italic;
+  color: #827c82;
+  background-color: blue;
+}
