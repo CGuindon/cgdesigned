@@ -58,6 +58,11 @@ a:focus {
   width: 100%;
 }
 
+.inline-img {
+  margin: auto;
+  display: block;
+}
+
 .bg {
   padding: 0;
 }
@@ -192,12 +197,15 @@ h4 {
   margin-top: 6rem;
 }
 
+.grid-border {
+  border-top: solid 1px #d9d9d9;
+}
+
 .grid-1 {
   margin: auto;
   padding: 6rem 3rem;
   max-width: 70rem;
   align-items: center;
-  border-top: solid 1px #d9d9d9;
 }
 
 @media (min-width: 25em) {
@@ -626,4 +634,92 @@ h4 {
 .edc-bg-blue p,
 .edc-bg-blue h2 {
   color: #fff;
+}
+
+.re-bg-blue {
+  background-color: #0000ff;
+}
+
+.re-bg-grey {
+  background-color: #f1f1f1;
+}
+
+.re-bg-white {
+  background-color: #ffffff;
+}
+
+.re-problem h3,
+.re-problem p {
+  font-style: italic;
+  text-align: center;
+}
+
+.re-problem h3 {
+  font-size: 1rem;
+  margin: 2rem 0 1rem;
+  color: #9999ff;
+  font-weight: lighter;
+}
+
+.re-problem p {
+  font-size: 1.125rem;
+  margin: 0 0 2rem;
+  color: #fff;
+}
+
+.re-box {
+  border: #d9d9d9 solid 1px;
+  padding: 3rem;
+  height: 25rem;
+}
+
+.re-grid-1 {
+  border: none;
+  padding-top: 3rem;
+  padding-bottom: 0;
+}
+
+.re-box h3 {
+  font-weight: lighter;
+  color: #827c82;
+  font-size: 0.85rem;
+  margin: 0;
+}
+
+.re-box h4 {
+  color: #363336;
+  text-transform: none;
+  margin-top: 0;
+}
+
+.re-box img {
+  height: 4rem;
+  margin-bottom: 2rem;
+}
+
+.re-quote {
+  font-style: italic;
+  color: #827c82;
+  font-size: 1.375rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: auto;
+  padding: 0 3rem;
+  max-width: 46rem;
+  align-items: center;
+}
+
+.re-quo-text {
+  margin: 0;
+  position: relative;
+}
+
+blockquote:before {
+  content: "\201C";
+  position: absolute;
+  top: 0.25em;
+  left: -0.15em;
+  color: #000;
+  font-size: 6em;
+  z-index: -1;
 }
