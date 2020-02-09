@@ -61,6 +61,15 @@ a:focus {
 .inline-img {
   margin: auto;
   display: block;
+  width: 100%;
+  padding: 1rem 0;
+}
+
+@media (min-width: 28em) {
+  .inline-img {
+    width: auto;
+    padding: 0;
+  }
 }
 
 .bg {
@@ -203,7 +212,7 @@ h4 {
 
 .grid-1 {
   margin: auto;
-  padding: 6rem 3rem;
+  padding: 3rem 3rem;
   max-width: 70rem;
   align-items: center;
 }
@@ -213,6 +222,12 @@ h4 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
     grid-gap: 3rem;
+  }
+}
+
+@media (min-width: 50em) {
+  .grid-1 {
+    padding: 6rem 3rem;
   }
 }
 
@@ -320,6 +335,34 @@ h4 {
 .cta-old {
   background-color: #827c82;
   padding-bottom: 6rem;
+}
+
+.iframe-container {
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+}
+
+.iframe-container iframe {
+  border: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+@media (min-width: 1004px) {
+  .iframe-container {
+    width: 1004px !important;
+    height: 565px !important;
+    display: block;
+    padding-top: 0;
+    margin: auto;
+  }
+  .iframe-container iframe {
+    position: relative;
+  }
 }
 
 /* CTA */
@@ -436,14 +479,20 @@ h4 {
   display: grid;
   grid-template-columns: 1fr;
   margin: auto;
-  padding: 4rem 3rem;
+  padding: 3rem 3rem;
   max-width: 46rem;
   align-items: center;
 }
 
+@media (min-width: 50em) {
+  .grid-2 {
+    padding: 4rem 3rem;
+  }
+}
+
 .grid-3 {
   margin: auto;
-  padding: 6rem 3rem;
+  padding: 3rem 3rem;
   max-width: 70rem;
   align-items: top;
 }
@@ -453,6 +502,7 @@ h4 {
     display: grid;
     grid-gap: 4rem;
     grid-template-columns: 2fr 1fr;
+    padding: 6rem 3rem;
   }
 }
 
