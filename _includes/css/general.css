@@ -212,7 +212,7 @@ h4 {
   align-items: center;
 }
 
-@media (min-width: 25em) {
+@media (min-width: 27em) {
   .grid-1 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
@@ -698,7 +698,13 @@ h4 {
 .re-box {
   border: #d9d9d9 solid 1px;
   padding: 3rem;
-  height: 25rem;
+  height: auto;
+}
+
+@media (min-width: 27em) {
+  .re-box {
+    height: 25rem;
+  }
 }
 
 .re-grid-1 {
